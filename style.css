@@ -1,0 +1,29 @@
+.country{
+    border: 1px solid red;
+    padding:20px;
+    border-radius: 20px;
+    margin: 20px 10px;
+    text-align: center;
+    
+}
+
+#country{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-gap: 10px;
+    margin: 10px 50px;
+    
+    
+}
+.city{
+    font-size: 45px;
+    color:magenta;
+}
+
+#country-info{
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    text-align: center;
+}
